@@ -4,7 +4,7 @@
 - Ubuntu (We test with Ubuntu = 16.04.5 LTS)
 - Python (We test with Python = 3.6.8 in Anaconda3 = 4.1.1)
 - Cuda & Cudnn (We test with Cuda = 9.0 and Cudnn = 7.0)
-- PyTorch 1.0.0 to current (any version works)
+- PyTorch 1.0.0 to current (any version works) installed on both Python and Python3
 - GCC (Compiling PyTorch 1.0.0 extension files (.c/.cu) requires gcc = 4.9.1 and nvcc = 9.0 compilers)
 - NVIDIA GPU (We use Titan X (Pascal) with compute = 6.1, but we support compute_50/52/60/61 devices, should you have devices with higher compute capability, please revise [this](https://github.com/baowenbo/DAIN/blob/master/my_package/DepthFlowProjection/setup.py))
 
